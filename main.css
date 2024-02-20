@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer{
+    
+    background-color: rgb(116, 116, 216);
+    padding-top: 16px;
+    color: #fff;
+
+}
+header .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.form-cadastro input{
+    display: block;
+    height: 40px;
+    width: 400px;
+    margin: 16px;
+    padding-left: 6px;
+}
+
+form{
+    
+}
+
+button{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 120px;
+    height: 35px;
+}
+
+footer li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img{
+    height: 32px;
+}
+
+footer .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    margin-top: 90px;
+}
+
+footer p{
+    margin-left: 30px;
+    align-items: center;
+    padding: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a:hover{
+    color: black;
+}
